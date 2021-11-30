@@ -1,0 +1,28 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": ".venv/bin/flake8",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "src",
+        "tests"
+    ],
+    "python.autoComplete.extraPaths": ["src", "tests"],
+    "python.formatting.provider": "black",
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/cvs": true,
+        "**/.DS_Store": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/venv": true,
+    },
+}
